@@ -1,0 +1,194 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 23px;
+    margin-left: 76px;
+    color: #989D9C;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-link {
+    margin-right: 23px;
+}
+
+.header-link:hover {
+    opacity: 0.6;
+}
+
+.header-button {
+    background-color: #665AE1;
+    color: #fff;
+    border-radius: 35px;
+    font-weight: 600;
+    font-size: 24px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: rgba(102, 90, 225, 0.6);
+}
+
+.header-button:active {
+    background-color: rgba(102, 90, 225, 0.4);
+}
+
+img {
+    width: 50vh;
+    height: 50%;
+    margin-top: 217px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+container {
+
+    margin-left: 86px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+    text-transform: uppercase;
+    width: 513px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+    text-transform: capitalize;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #848484;
+}
+
+.explore-button {
+    margin: 65px auto;
+    width: 239px;
+    height: 64px;
+    background-color: #ADFF00;
+    color: #000;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+}
+
+.explore-button:hover {
+    background-color: rgba(173, 255, 0, 0.6);
+}
+
+.explore-button:active {
+    background-color: rgba(173, 255, 0, 0.4);
+}
+
+@media screen and (max-width: 900px) {
+    img {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 25px auto;
+    }
+
+    .explore-button {
+        max-width: 70%;
+        height: 50px;
+        font-size: 20px;
+        display: block;
+        margin: 20px auto;
+
+    }
+
+    container {
+        margin-left: 0;
+    }
+
+    h1,
+    h2 {
+        font-size: 50px;
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        margin-top: 23px;
+        margin-left: 40px;
+        color: #989D9C;
+        text-transform: uppercase;
+        font-weight: 600px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .header-link {
+        margin-right: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 70%;
+        height: auto;
+        display: block;
+        margin: 25px auto;
+        align-items: center;
+    }
+
+    .explore-button {
+        max-width: 70%;
+        height: 50px;
+        font-size: 20px;
+        display: block;
+        margin: 20px auto;
+
+    }
+
+    container {
+        margin-left: 0;
+    }
+
+    h1,
+    h2 {
+        font-size: 50px;
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header {
+        display: none;
+    }
+}
